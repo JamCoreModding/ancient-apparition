@@ -27,7 +27,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "{{ mod_id }}"
+rootProject.name = "ancient_apparition"
 include("common")
 include("fabric")
 include("neoforge")

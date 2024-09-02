@@ -1,27 +1,27 @@
 {
     "schemaVersion": 1,
-    "id": "{{ mod_id }}",
+    "id": "ancient_apparition",
     "version": "${version}",
-    "name": "{{ name }}",
-    "description": "{{ description }}",
+    "name": "Ancient Apparition",
+    "description": "TODO",
     "authors": [
-        "{{ author }}"
+        "Jamalam"
     ],
     "contact": {
-        "homepage": "https://github.com/{{github_owner}}/{{github_repo}}",
-        "sources": "https://github.com/{{github_owner}}/{{github_repo}}",
-        "issues": "https://github.com/{{github_owner}}/{{github_repo}}/issues"
+        "homepage": "https://github.com/JamCoreModding/ancient-apparition",
+        "sources": "https://github.com/JamCoreModding/ancient-apparition",
+        "issues": "https://github.com/JamCoreModding/ancient-apparition/issues"
     },
     "license": "MIT",
-    "icon": "assets/{{mod_id}}/icon.png",
+    "icon": "assets/ancient_apparition/icon.png",
     "environment": "*",
     "entrypoints": {
         "main": [
-            "{{group}}.{{mod_id}}.fabric.{{main_class}}Fabric"
+            "io.github.jamalam360.ancient_apparition.fabric.AncientApparitionFabric"
         ]
     },
     "mixins": [
-        "{{mod_id}}.mixins.json"
+        "ancient_apparition.mixins.json"
     ],
     "depends": {
         "fabric": ">=${fabric_api_version}",
